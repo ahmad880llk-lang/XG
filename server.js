@@ -5,9 +5,8 @@ const telegramBot = require('node-telegram-bot-api')
 const uuid4 = require('uuid')
 const multer = require('multer');
 const bodyParser = require('body-parser')
-const axios = require("axios");
-
-const token = 'process.env.BOT_TOKEN
+const axios = require("axios")
+const token = process.env.BOT_TOKEN;
 const id = '6946037262'
 const address = 'https://www.google.com'
 
